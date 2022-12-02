@@ -1,9 +1,9 @@
-.container {
+/* .container {
   padding: 0 2rem;
-}
+} */
 
 .main {
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -42,7 +42,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title,
@@ -126,4 +126,22 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+nav.mainNav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+  height: 50px;
+  padding: 10px;
+}
+
+nav.mainNav ul li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
