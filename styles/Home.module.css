@@ -145,3 +145,9 @@ nav.mainNav ul li {
   font-size: 20px;
   letter-spacing: 3px;
 }
+
+.imageWrapper img {
+  border: 1px solid #eee;
+  border-radius: 20px;
+  margin-top: 30px;
+}
